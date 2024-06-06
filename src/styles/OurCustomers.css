@@ -1,0 +1,92 @@
+.our-customers {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .our-customers-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgb(49, 49, 66);
+  }
+  
+  .our-customers h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .our-customers p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .our-customers-brands {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .our-customers-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .our-customers-card img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .our-customers-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .our-customers-work {
+    margin-top: 60px;
+    color: rgb(49, 49, 66);
+  }
+  
+  .our-customers-work h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .our-customers-work p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .our-customer-profile {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .our-customer-profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .our-customer-profile h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .our-customer-profile p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #777;
+  }
+  
