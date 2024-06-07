@@ -72,9 +72,14 @@ body {
   @media only screen and (max-width: 900px) {
     .content-hero {
       width: 100%;
+      /* padding: 15px; */
+      max-width: 1200px;
+      width: 90%;
+      margin: 0 auto;
       margin-top: 20%;
-      padding: 15px;
     }
+
+    
   
     .content-hero h3 {
       font-size: 1.5rem; /* 24px */
